@@ -10,69 +10,148 @@
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Roboto&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/8ea4f12082.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="assets/css/style.css">
-	<title>Bere Gloria</title>
+	<title>Bere Gloria | Contact</title>
 	<link rel="shortcut icon" type="image/png" href="assets/images/logo_v3.png">
 
 </head>
 
 <body>
 	<header>
+		<!----------Navigation Bar---------->
 		<div class="container-fluid black-background">
 			<div class="row">
 				<div class="col-2 nav nav-pills nav-fill">
 					<a class="nav-item nav-link" href="about.html">
-						<h5><i class="fas fa-archway"></i></h5>
-						<h5>About Us</h5>
+						<h5><i class="fas fa-archway"></i><br>About Us</h5>	
 					</a>
 				</div>
+
 				<div class="col-2 nav nav-pills nav-fill">
 					<a class="nav-item nav-link" href="events.html">
-						<h5><i class="fas fa-calendar-alt"></i></h5>
-						<h5>Events</h5>
+						<h5><i class="fas fa-calendar-alt"></i><br>Events</h5>
 					</a>
 				</div>
+
+				<!----------Logo Image---------->
 				<div class="col-4 text-center">
 					<a href="index.html">
 						<img class="logo text-center" src="assets/images/logo_v3.png" alt="bere gloria logo">
                     </a>
 				</div>
+				<!----------/Logo Image---------->
+
 				<div class="col-2 nav nav-pills nav-fill">
 					<a class="nav-item nav-link" href="locations.html">
-						<h5><i class="fas fa-glass-cheers"></i></h5>
-						<h5>Where to Drink</h5>
+						<h5><i class="fas fa-glass-cheers"></i><br>Where to Drink</h5>
 					</a>
 				</div>
+
 				<div class="col-2 nav nav-pills nav-fill">
 					<a class="nav-item nav-link" href="contact.html">
-						<h5><i class="fas fa-comments"></i></h5>
-						<h5>Contact Us</h5>
+						<h5><i class="fas fa-comments"></i><br>Contact Us</h5>
 					</a>
 				</div>
+
 			</div>
 		</div>
+		<!----------/Navigtion Bar---------->
 	</header>
 
-	<section>
-		<p>Hello World</p>
-		<br><br><br><br><br><br>
+	<section class="container-fluid">
+		<div class="row">
+			<!----------Contact Form---------->
+			<div class="col-4">
+				<div class="row bg-color-contact">
+					<div class="col">
+						<h3 class="contact-heading text-center">Contact Us</h3>
+						<h5 class="text-center">We'd love to hear from you!</h5>
+						<div class="center-form">
+							<form class="contact">
+								<div class="container-fluid text-center">
+									<input type="radio" id="customer" name="type" value="customer">
+									<label for="customer"><i class="fas fa-male"></i>
+                        <span>Customer</span>
+                        </label>
+
+									<input type="radio" id="company" name="type" value="company">
+									<label for="company"><i class="fas fa-building"></i>
+                        <span>Company</span>
+                        </label>
+								</div>
+								<input type="text" id="contact name" class="form-control" placeholder="Name" required>
+								<input type="email" id="contact email" class="form-control" placeholder="Email" required>
+
+								<textarea rows="5" id="message" name="summary" class="form-control" placeholder="Your Message"></textarea>
+								<br>
+								<div class="form-row text-center">
+									<div class="col">
+										<button id="contact_submit" type="submit" class="btn btn-outline-warning btn-sm subscribe_btn">Send Message</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!----------Address---------->
+			<div class="col-4">
+				<h1>Address</h1>
+				<ul>
+					<li>
+						515400 Blaj,
+					</li>
+					<li>
+						str. Simion Barnutiu nr.73, jud. Alba
+					</li>
+					<li>
+						Romania
+					</li>
+					<li>
+						Phone: (004) 0743 105 134
+					</li>
+					<li>
+						Phone: (004) 0757 612 422
+					</li>
+					<li>
+						Email: office@berecumiere.ro
+					</li>
+					<li>
+						Follow us on: Facebook
+					</li>
+				</ul>
+			</div>
+            <div class="col-4">
+            <h1>Here you will find us</h1>   
+            </div>
+		</div>
 	</section>
 
-		<footer>
-			<form class="text-center">
-				<div class="form-group subscribe">
-					<h2 class="subscribe_heading">Subscribe</h2>
-					<small class="subscribe_text">Subscribe for more information on events, updates and new products.</small>
-					<input type="text" id="name" placeholder="Name" class="subscribe_entry">
-					<input type="email" id="email" placeholder="Email" class="subscribe_entry">
-					<button type="submit" class="btn btn-outline-warning btn-sm subscribe_btn">Submit</button>
-				</div>
-			</form>
-			<div class="col-sm text-right">
+		<footer class="fixed-bottom">
+
+		<!----------Footer---------->
+
+		<!----------Subscribe---------->
+		<form class="text-center">
+			<div class="form-group subscribe">
+				<h2 class="subscribe_heading">Subscribe</h2>
+				<small class="subscribe_text">Subscribe for more information on events, updates and new products.</small>
+				<input type="text" id="name" placeholder="Name" class="subscribe_entry">
+				<input type="email" id="email" placeholder="Email" class="subscribe_entry">
+				<button type="submit" class="btn btn-outline-warning btn-sm subscribe_btn">Submit</button>
+			</div>
+		</form>
+		<!----------/Subscribe---------->
+
+		<!----------Social Links---------->
+		<!--<div class="col-sm text-right">
 				<a href="https://www.facebook.com/bere.cumiere.1" type="_blank">
 					<img class="social-links" src="assets/images/facebook-black.jpg" alt="facebook">
                     </a>
-			</div>
-		</footer>
+			</div>-->
+		<!----------/Social Links---------->
+
+		<!----------/Footer---------->
+	</footer>
 </body>
 
 </html>
