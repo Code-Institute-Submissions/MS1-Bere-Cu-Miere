@@ -1,9 +1,20 @@
 body {
     font-family: 'EB Garamond', sans-serif;
     justify-content: center;
-    margin: 0;
+    margin: 0 0 100px 0;
     padding: 0;
+    clear: both;
     align-items: center;
+}
+
+section {
+    height: 100%;
+}
+
+.page_header h1 {
+    color: #997137;
+    text-align: center;
+    padding: 10px
 }
 
 /*----------Colours----------*/
@@ -67,6 +78,10 @@ h5 {
 
 /*----------Hero----------*/
 
+.hero-section {
+    padding: 1%
+}
+
 .hero {
     height: 200px;
     width: 120px;
@@ -75,7 +90,7 @@ h5 {
 /*----------Product Cards----------*/
 
 .products {
-    width: 100vw;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: space-between
@@ -183,16 +198,22 @@ h5 {
     max-width: 100px;
 }
 
-
-
-
 /*----------About----------*/
 
-.about-bere div {
-    background: green
+.about {
+    color: #997137;
+    text-align: justify;
 }
 
+.about h1 {
+    padding: 0;
+    margin: 0;
+}
 
+.about_header {
+    padding: 10px;
+    box-shadow: 0 20px 50px rgba(97, 63, 63, 0.8);
+}
 
 /*----------Gallery----------*/
 
@@ -317,8 +338,8 @@ input[type="radio"]:checked + label {
 /*----------Footer----------*/
 
 footer {
-    position: absolute;
-    margin: 0 auto
+    position: fixed;
+    margin: 0 auto;
 }
 
 .subscribe {
