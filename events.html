@@ -17,53 +17,70 @@
 
 <body>
 	<header>
-		<!----------Navigation Bar---------->
-		<div class="container-fluid black-background">
-			<div class="row">
-				<div class="col-2 nav nav-pills nav-fill">
-					<a class="nav-item nav-link" href="about.html">
-						<h5><i class="fas fa-archway"></i><br>About Us</h5>
-					</a>
-				</div>
-
-				<div class="col-2 nav nav-pills nav-fill">
-					<a class="nav-item nav-link" href="events.html">
-						<h5><i class="fas fa-calendar-alt"></i><br>Events</h5>
-					</a>
-				</div>
-
-				<!----------Logo Image---------->
-				<div class="col-4 text-center">
-					<a href="index.html">
-						<img class="logo text-center" src="assets/images/logo_v3.png" alt="bere gloria logo">
-                    </a>
-				</div>
-				<!----------/Logo Image---------->
-
-				<div class="col-2 nav nav-pills nav-fill">
-					<a class="nav-item nav-link" href="locations.html">
-						<h5><i class="fas fa-glass-cheers"></i><br>Where to Drink</h5>
-					</a>
-				</div>
-
-				<div class="col-2 nav nav-pills nav-fill">
-					<a class="nav-item nav-link" href="contact.html">
-						<h5><i class="fas fa-comments"></i><br>Contact Us</h5>
-					</a>
-				</div>
-
+    <!----------Navigation Bar---------->
+		<nav class="black-background">
+			<div class="nav-links nav-links-1">
+				<a href="about.html">
+					<h4><i class="fas fa-archway"></i></h4>
+					<h5>About Us</h5>
+				</a>
+				<a href="events.html">
+					<h4><i class="fas fa-calendar-alt"></i></h4>
+					<h5>Events</h5>
+				</a>
 			</div>
-		</div>
-		<!----------/Navigtion Bar---------->
+            <!----------Logo Image---------->
+			<div class="logo">
+				<a href="index.html">
+					<img class="logo" src="assets/images/logo_v3.png" alt="bere gloria logo">
+            </a>
+			</div>
+            <!----------/Logo Image---------->
+			<div class="nav-links nav-links-2">
+				<a href="locations.html">
+					<h4><i class="fas fa-glass-cheers"></i></h4>
+					<h5>Where to Drink</h5>
+				</a>
+				<a href="contact.html">
+					<h4><i class="fas fa-comments"></i></h4>
+					<h5>Contact Us</h5>
+				</a>
+			</div>
+        </nav>
+        <!----------Burger---------->
+			<div class="burger">
+				<input type="checkbox" class="toggler">
+				<div class="hamburger"><i class="fas fa-bars"></i></div>
+				<div class="nav-links nav-links-1">
+					<a href="about.html">
+						<h4><i class="fas fa-archway"></i></h4>
+						<h5>About Us</h5>
+					</a>
+					<a href="events.html">
+						<h4><i class="fas fa-calendar-alt"></i></h4>
+						<h5>Events</h5>
+					</a>
+				</div>
+                <div class="nav-links nav-links-2">
+				<a href="locations.html">
+					<h4><i class="fas fa-glass-cheers"></i></h4>
+					<h5>Where to Drink</h5>
+				</a>
+				<a href="contact.html">
+					<h4><i class="fas fa-comments"></i></h4>
+					<h5>Contact Us</h5>
+				</a>
+			</div>
+            <!----------/Burger---------->
+			</div>
+            <!----------/Navigation Bar---------->
 	</header>
 
 	<section>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12 page_header black-background">
+				<div class="page_header black-background">
 					<h1>Find Local Events Here</h1>
 				</div>
-			</div>
+
 			<div class="gallery">
 				<div class="gallery_event">
 					<img class="gallery_event_top" src="http://berecumiere.ro/images/3108.jpeg" alt="Event 1">
@@ -135,14 +152,13 @@
 					<div class="gallery_event_bottom">Hello World <a href="">Link Here</a></div>
 				</div>
 			</div>
-		</div>
 	</section>
 
-	<footer class="fixed-bottom">
+	<footer>
 
-		<!----------Footer---------->
+			<!----------Footer---------->
 
-		<!----------Subscribe---------->
+			<!----------Subscribe---------->
 		<form class="text-center">
 			<div class="form-group subscribe">
 				<h2 class="subscribe_heading">Subscribe</h2>
@@ -152,17 +168,17 @@
 				<button type="submit" class="btn btn-outline-warning btn-sm subscribe_btn">Submit</button>
 			</div>
 		</form>
-		<!----------/Subscribe---------->
+			<!----------/Subscribe---------->
 
-		<!----------Social Links---------->
-		<!--<div class="col-sm text-right">
+			<!----------Social Links---------->
+			<!--<div class="col-sm text-right">
 				<a href="https://www.facebook.com/bere.cumiere.1" type="_blank">
 					<img class="social-links" src="assets/images/facebook-black.jpg" alt="facebook">
                     </a>
 			</div>-->
-		<!----------/Social Links---------->
+			<!----------/Social Links---------->
 
-		<!----------/Footer---------->
+			<!----------/Footer---------->
 	</footer>
 </body>
 

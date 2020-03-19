@@ -17,60 +17,77 @@
 
 <body>
 	<header>
-		<!----------Navigation Bar---------->
-		<div class="container-fluid black-background">
-			<div class="row">
-				<div class="col-2 nav nav-pills nav-fill">
-					<a class="nav-item nav-link" href="about.html">
-						<h5><i class="fas fa-archway"></i><br>About Us</h5>
-					</a>
-				</div>
-
-				<div class="col-2 nav nav-pills nav-fill">
-					<a class="nav-item nav-link" href="events.html">
-						<h5><i class="fas fa-calendar-alt"></i><br>Events</h5>
-					</a>
-				</div>
-
-				<!----------Logo Image---------->
-				<div class="col-4 text-center">
-					<a href="index.html">
-						<img class="logo text-center" src="assets/images/logo_v3.png" alt="bere gloria logo">
-                    </a>
-				</div>
-				<!----------/Logo Image---------->
-
-				<div class="col-2 nav nav-pills nav-fill">
-					<a class="nav-item nav-link" href="locations.html">
-						<h5><i class="fas fa-glass-cheers"></i><br>Where to Drink</h5>
-					</a>
-				</div>
-
-				<div class="col-2 nav nav-pills nav-fill">
-					<a class="nav-item nav-link" href="contact.html">
-						<h5><i class="fas fa-comments"></i><br>Contact Us</h5>
-					</a>
-				</div>
-
+    <!----------Navigation Bar---------->
+		<nav class="black-background">
+			<div class="nav-links nav-links-1">
+				<a href="about.html">
+					<h4><i class="fas fa-archway"></i></h4>
+					<h5>About Us</h5>
+				</a>
+				<a href="events.html">
+					<h4><i class="fas fa-calendar-alt"></i></h4>
+					<h5>Events</h5>
+				</a>
 			</div>
-		</div>
-		<!----------/Navigtion Bar---------->
+            <!----------Logo Image---------->
+			<div class="logo">
+				<a href="index.html">
+					<img class="logo" src="assets/images/logo_v3.png" alt="bere gloria logo">
+            </a>
+			</div>
+            <!----------/Logo Image---------->
+			<div class="nav-links nav-links-2">
+				<a href="locations.html">
+					<h4><i class="fas fa-glass-cheers"></i></h4>
+					<h5>Where to Drink</h5>
+				</a>
+				<a href="contact.html">
+					<h4><i class="fas fa-comments"></i></h4>
+					<h5>Contact Us</h5>
+				</a>
+			</div>
+        </nav>
+        <!----------Burger---------->
+			<div class="burger">
+				<input type="checkbox" class="toggler">
+				<div class="hamburger"><i class="fas fa-bars"></i></div>
+				<div class="nav-links nav-links-1">
+					<a href="about.html">
+						<h4><i class="fas fa-archway"></i></h4>
+						<h5>About Us</h5>
+					</a>
+					<a href="events.html">
+						<h4><i class="fas fa-calendar-alt"></i></h4>
+						<h5>Events</h5>
+					</a>
+				</div>
+                <div class="nav-links nav-links-2">
+				<a href="locations.html">
+					<h4><i class="fas fa-glass-cheers"></i></h4>
+					<h5>Where to Drink</h5>
+				</a>
+				<a href="contact.html">
+					<h4><i class="fas fa-comments"></i></h4>
+					<h5>Contact Us</h5>
+				</a>
+			</div>
+            <!----------/Burger---------->
+			</div>
+            <!----------/Navigation Bar---------->
 	</header>
 
-	<section class="black-background">
+	<div class="black-background">
 
 		<!----------Hero Image---------->
-		<div class="container-fluid text-center hero-section page_header">
+		<div class="container text-center hero-section page_header">
 			<img class="hero" src="assets/images/bere_cu_miere_2.jpg" alt="bere bottle">
         </div>
 			<!----------/Hero Image---------->
 
 			<!----------Product Cards---------->
-			<div class="container-fluid">
-				<div class="row products">
 
+<div class="products">
 					<!----------Product 1---------->
-					<div class="col-sm">
 						<div class="products_card">
 							<div class="products_card_section products_card_section_a products_card_section_a_pale">
 								<div class="products_card_section_a_content">
@@ -93,15 +110,13 @@
 								</div>
 							</div>
 						</div>
-					</div>
 					<!----------/Product 1---------->
 
 					<!----------Product 2---------->
-					<div class="col-sm">
 						<div class="products_card">
 							<div class="products_card_section products_card_section_a products_card_section_a_dark">
 								<div class="products_card_section_a_content">
-									<img src="assets/images/dark_ale_1.png" alt="Dark Ale">
+                                    <img src="assets/images/dark_ale_1.png" alt="Dark Ale">
 									<h3>Dark Ale</h3>
 								</div>
 							</div>
@@ -119,11 +134,9 @@
 								</div>
 							</div>
 						</div>
-					</div>
 					<!----------/Product 2---------->
 
 					<!----------Product 3---------->
-					<div class="col-sm">
 						<div class="products_card">
 							<div class="products_card_section products_card_section_a products_card_section_a_amber">
 								<div class="products_card_section_a_content">
@@ -148,21 +161,17 @@
 								</div>
 							</div>
 						</div>
-					</div>
 					<!----------Product 3---------->
 				</div>
-			</div>
+</div>
 			<!----------/Product Cards---------->
 
 
+	<footer>
 
-	</section>
+			<!----------Footer---------->
 
-	<footer class="fixed-bottom">
-
-		<!----------Footer---------->
-
-		<!----------Subscribe---------->
+			<!----------Subscribe---------->
 		<form class="text-center">
 			<div class="form-group subscribe">
 				<h2 class="subscribe_heading">Subscribe</h2>
@@ -172,17 +181,17 @@
 				<button type="submit" class="btn btn-outline-warning btn-sm subscribe_btn">Submit</button>
 			</div>
 		</form>
-		<!----------/Subscribe---------->
+			<!----------/Subscribe---------->
 
-		<!----------Social Links---------->
-		<!--<div class="col-sm text-right">
+			<!----------Social Links---------->
+			<!--<div class="col-sm text-right">
 				<a href="https://www.facebook.com/bere.cumiere.1" type="_blank">
 					<img class="social-links" src="assets/images/facebook-black.jpg" alt="facebook">
                     </a>
 			</div>-->
-		<!----------/Social Links---------->
+			<!----------/Social Links---------->
 
-		<!----------/Footer---------->
+			<!----------/Footer---------->
 	</footer>
 </body>
 
