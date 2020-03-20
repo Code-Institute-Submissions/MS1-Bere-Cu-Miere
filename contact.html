@@ -17,7 +17,7 @@
 
 <body>
 	<header>
-    <!----------Navigation Bar---------->
+		<!----------Navigation Bar---------->
 		<nav class="black-background">
 			<div class="nav-links nav-links-1">
 				<a href="about.html">
@@ -29,13 +29,13 @@
 					<h5>Events</h5>
 				</a>
 			</div>
-            <!----------Logo Image---------->
+			<!----------Logo Image---------->
 			<div class="logo">
 				<a href="index.html">
 					<img class="logo" src="assets/images/logo_v3.png" alt="bere gloria logo">
             </a>
 			</div>
-            <!----------/Logo Image---------->
+			<!----------/Logo Image---------->
 			<div class="nav-links nav-links-2">
 				<a href="locations.html">
 					<h4><i class="fas fa-glass-cheers"></i></h4>
@@ -46,22 +46,22 @@
 					<h5>Contact Us</h5>
 				</a>
 			</div>
-        </nav>
-        <!----------Burger---------->
-			<div class="burger">
-				<input type="checkbox" class="toggler">
-				<div class="hamburger"><i class="fas fa-bars"></i></div>
-				<div class="nav-links nav-links-1">
-					<a href="about.html">
-						<h4><i class="fas fa-archway"></i></h4>
-						<h5>About Us</h5>
-					</a>
-					<a href="events.html">
-						<h4><i class="fas fa-calendar-alt"></i></h4>
-						<h5>Events</h5>
-					</a>
-				</div>
-                <div class="nav-links nav-links-2">
+		</nav>
+		<!----------Burger---------->
+		<div class="burger">
+			<input type="checkbox" class="toggler">
+			<div class="hamburger"><i class="fas fa-bars"></i></div>
+			<div class="nav-links nav-links-1">
+				<a href="about.html">
+					<h4><i class="fas fa-archway"></i></h4>
+					<h5>About Us</h5>
+				</a>
+				<a href="events.html">
+					<h4><i class="fas fa-calendar-alt"></i></h4>
+					<h5>Events</h5>
+				</a>
+			</div>
+			<div class="nav-links nav-links-2">
 				<a href="locations.html">
 					<h4><i class="fas fa-glass-cheers"></i></h4>
 					<h5>Where to Drink</h5>
@@ -71,51 +71,48 @@
 					<h5>Contact Us</h5>
 				</a>
 			</div>
-            <!----------/Burger---------->
-			</div>
-            <!----------/Navigation Bar---------->
+			<!----------/Burger---------->
+		</div>
+		<!----------/Navigation Bar---------->
 	</header>
 
-	<section class="">
-				<div class="page_header black-background">
-					<h1>How to Contact Us</h1>
-				</div>
+	<section>
+		<div class="page_header black-background">
+			<h1>How to Contact Us</h1>
+		</div>
+
+		<div class="contact">
+
 			<!----------Contact Form---------->
-			<div class="">
-				<div class="bg-color-contact">
-					<div class="">
-						<h3 class="contact-heading text-center">Contact Us</h3>
-						<h5 class="text-center">We'd love to hear from you!</h5>
-						<div class="center-form">
-							<form class="contact">
-								<div class="container-fluid text-center">
-									<input type="radio" id="customer" name="type" value="customer">
-									<label for="customer"><i class="fas fa-male"></i>
-                        <span>Customer</span>
-                        </label>
+			<div class="contact_form">
+				<h1>Contact Us</h1>
+				<h5>We'd love to hear from you!</h5>
 
-									<input type="radio" id="company" name="type" value="company">
-									<label for="company"><i class="fas fa-building"></i>
-                        <span>Company</span>
-                        </label>
-								</div>
-								<input type="text" id="contact name" class="form-control" placeholder="Name" required>
-								<input type="email" id="contact email" class="form-control" placeholder="Email" required>
 
-								<textarea rows="5" id="message" name="summary" class="form-control" placeholder="Your Message"></textarea>
-								<br>
-								<div class="form-row text-center">
-									<div class="col">
-										<button id="contact_submit" type="submit" class="btn btn-outline-warning btn-sm subscribe_btn">Send Message</button>
-									</div>
-								</div>
-							</form>
-						</div>
+				<div class="contact_form_cust_type">
+					<div>
+						<input type="radio" id="customer" name="type" value="customer">
+						<label for="customer"><i class="fas fa-male"></i><span>Customer</span></label>
+					</div>
+					<div>
+						<input type="radio" id="company" name="type" value="company">
+						<label for="company"><i class="fas fa-building"></i><span>Company</span></label>
 					</div>
 				</div>
+
+
+				<input type="text" id="name" placeholder="Name" required>
+				<br>
+				<input type="email" id="email" placeholder="Email" required>
+				<br>
+				<textarea rows="5" id="message" placeholder="Your Message"></textarea>
+				<br>
+				<div>
+					<button id="submit" type="submit" class="">Send Message</button>
+				</div>
 			</div>
-			<!----------Address---------->
-			<div class="">
+
+			<div class="contact_address">
 				<h1>Address</h1>
 				<ul>
 					<li>
@@ -137,40 +134,48 @@
 						Email: office@berecumiere.ro
 					</li>
 					<li>
-						Follow us on: Facebook
+						Follow us on: <a href="https://www.facebook.com/beregloriablaj/">Facebook</a>
 					</li>
 				</ul>
+
 			</div>
-            <div class="">
-            <h1>Here you will find us</h1>   
-            </div>
-</section>
+
+			<div class="contact_map">
+				<h1>Find Us Here</h1>
+                <iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6570.212187253243!2d23.925106838282108!3d46.18192284275096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474bf8395acd3649%3A0xc87d6f2f3f7b68ce!2sStrada%20Simion%20B%C4%83rnu%C8%9Biu%2073%2C%20Blaj%20515400!5e0!3m2!1sen!2sro!4v1584700582635!5m2!1sen!2sro"
+				width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+				tabindex="0">
+			</iframe>
+			</div>
+		</div>
+	</section>
 
 	<footer>
 
-			<!----------Footer---------->
+		<!----------Footer---------->
 
-			<!----------Subscribe---------->
+		<!----------Subscribe---------->
 		<form class="text-center">
 			<div class="form-group subscribe">
 				<h2 class="subscribe_heading">Subscribe</h2>
 				<small class="subscribe_text">Subscribe for more information on events, updates and new products.</small>
-				<input type="text" id="name" placeholder="Name" class="subscribe_entry">
-				<input type="email" id="email" placeholder="Email" class="subscribe_entry">
+				<input type="text" id="nme" placeholder="Name" class="subscribe_entry">
+				<input type="email" id="eail" placeholder="Email" class="subscribe_entry">
 				<button type="submit" class="btn btn-outline-warning btn-sm subscribe_btn">Submit</button>
 			</div>
 		</form>
-			<!----------/Subscribe---------->
+		<!----------/Subscribe---------->
 
-			<!----------Social Links---------->
-			<!--<div class="col-sm text-right">
+		<!----------Social Links---------->
+		<!--<div class="col-sm text-right">
 				<a href="https://www.facebook.com/bere.cumiere.1" type="_blank">
 					<img class="social-links" src="assets/images/facebook-black.jpg" alt="facebook">
                     </a>
 			</div>-->
-			<!----------/Social Links---------->
+		<!----------/Social Links---------->
 
-			<!----------/Footer---------->
+		<!----------/Footer---------->
 	</footer>
 </body>
 
