@@ -1,10 +1,11 @@
 body {
+    position: relative;
     font-family: 'EB Garamond', sans-serif;
     justify-content: center;
     padding: 0;
     clear: both;
     align-items: center;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 section {
@@ -314,22 +315,19 @@ a:hover {
     background-color: #997137;
 }
 
+.gallery_event_bottom {
+    width: 80%;
+}
+
+.gallery_event_bottom p {
+    line-height: 20px;
+}
+
 /*----------Locations----------*/
 
 .locations {
-    display: flex
-}
-.locations_list {
-    position: relative;
-    left: 1vw;
-    padding: 2px
-}
-
-.locations_map {
-    position: fixed;
-    right: 3vw;
-    padding: 3px;
-    justify-content: center
+    display: flex;
+    justify-content: space-around
 }
 
 .locations_map iframe {
@@ -347,7 +345,7 @@ a:hover {
     text-align: center
 }
 
-.contact>div {
+.contact_div {
     width: 30%
 }
 
@@ -485,6 +483,10 @@ footer {
     color: #997137;
 }
 
+.form-group {
+    margin-bottom: 0
+}
+
 /*----------Responsive Design----------*/
 
 @media screen and (max-width:1024px){
@@ -494,9 +496,24 @@ footer {
     }
     
     .locations {
-    display: inline
+    display: inline;
     }
-}
+
+    .locations_list {
+    position: relative;
+    width: 100%;
+    text-align: center
+    }
+
+    .locations_list ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    }
+
+    .locations_map {
+    width: 100%;
+    text-align: center
+    }
 
 @media screen and (max-width:992px){
     .products {
@@ -509,7 +526,21 @@ footer {
 
     .about_photo{
         column-count: 1;
-    }    
+    }   
+
+    .about_section_gloria {
+        display: inline;
+    } 
+
+    .about_photo_gloria {
+        width: 100%
+    }
+
+    .about_text_gloria {
+        max-width: 100%;
+        padding: 15px
+    }
+
 }
 
 @media screen and (max-width:768px){
@@ -517,11 +548,12 @@ footer {
         display: inline;
     }
 
-    .contact>div {
-        width: 60%;
-        margin: 0% 20%
+    .contact_div {
+        width: 100%;
+        padding: 0 10%
     }
     
+
     .gallery {
         column-count: 2
     }
@@ -595,5 +627,25 @@ footer {
 
     .burger .toggler:checked ~ .nav-links {
         transform: translateX(0%)
+    }
+
+}
+
+@media screen and (max-width:444px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 10%
+    }
+
+    .subscribe_btn {
+        position: relative;
+        left: 25%;
+        width: 50%
+    }
+
+    .subscribe_entry, .subscribe_btn {
+        margin: 5px
     }
 }
