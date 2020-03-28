@@ -97,9 +97,23 @@ a:hover {
 
 /*----------Hero----------*/
 
-.hero {
-    height: 200px;
-    width: 120px;
+.hero-section {
+	max-height: 85vh;
+	overflow: hidden;
+	padding: 10px 0
+}
+
+.hero-section h1 {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	text-shadow: 5px 5px 5px #e7b165 ;
+	font-size: 75px;
+	color: white;
+	width: 100%;
+	top: 50vh;
+	z-index: 1;
+	margin: auto;
 }
 
 /*----------Product Cards----------*/
@@ -436,7 +450,9 @@ input[type="radio"] {
     background-color: #997137;
 }
 
-.address ul {
+
+
+.contact_address ul {
     list-style-type: none;
     margin: 0;
     padding: 5px
