@@ -304,28 +304,24 @@ a:hover {
     position: absolute;
     top: 50%;
     left: 50%;
+    color: #ffffff;
     transform: translate(-50%, -50%);
-    opacity: 0;
+    z-index: -1;
+}
+
+.gallery_event_bottom a {
+    text-decoration: none;
+    color: #ffffff
 }
 
 .gallery_event:hover .gallery_event_top {
     filter: brightness(20%) contrast(80%);
-    z-index: 50;
     transition-duration: 0.5s
 }
 
 .gallery_event:hover .gallery_event_bottom {
-    opacity: 100;
-    color: #ffffff;
-    text-decoration: none;
-    transition-duration: 0.5s
-}
-
-.gallery_event:hover .gallery_event_bottom a {
-    opacity: 100;
-    color: #ffffff;
-    text-decoration: none;
-    transition-duration: 0.5s
+    transition-duration: 0.5s;
+    z-index: 1;
 }
 
 .gallery_event_bottom a:hover {
