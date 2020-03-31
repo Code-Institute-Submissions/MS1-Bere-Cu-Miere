@@ -127,6 +127,8 @@ The site has been tested physically on a number of mobile devices including:
 * Google Pixel
 * Galaxy S9.
 
+Various examples of multiple screen sizes on different pages of the site can be found [here](https://github.com/Magnusson95/MS1-Bere-Cu-Miere/tree/master/wireframes)
+
 ### Issues and Resolutions
 
 * Firefox was not showing text in event page when hovering on event posters. Instead of using opacities and multiple z-index functions, which worked on the other browsers tested, I simplified my code to only adjust the bottom layer of the event card (the underlying text) with a z-index and remove all opacity functions; this fixed the bug.
