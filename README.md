@@ -139,6 +139,9 @@ Various examples of multiple screen sizes on different pages of the site can be 
 * Firefox was not showing text in event page when hovering on event posters. Instead of using opacities and multiple z-index functions, which worked on the other browsers tested, I simplified my code to only adjust the bottom layer of the event card (the underlying text) with a z-index and remove all opacity functions; this fixed the bug.
 * When reducing the screen size down to mobile it was noticed that the text within my event posters was overflowing. This was fixed by using media queries to reduce the font-size of the text and adjusting the number of columns to 1 on the smallest devices.
 * I found that the bootstrap layout was causing some containers to overflow the width of the screen, and others to cause a narrow white margin along the side of the page. As this was widespread across the whole site, I decided to remove all bootstrap layout classes and use flex to create my layouts instead
+* Hero Video on the index file was not mobile responsive. Thus the section of the video that you could see was not attractive. I fixed this by adding a responsive width parameter and the results can be see Below
+
+![index-mobile](https://github.com/Magnusson95/MS1-Bere-Cu-Miere/blob/master/wireframes/index-mobile.jpg)
 
 ### Known Issues
 * All responsiveness working on Microsoft Edge except minimum flex view
