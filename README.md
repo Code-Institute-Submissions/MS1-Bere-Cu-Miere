@@ -11,6 +11,22 @@ Potential suppliers can come to the site for information on how to contact Bere 
 ---
 
 # Contents
+1. [UX](#ux)
+2. [User Stories](#User-Stories)
+3. [Design Choices](#Design-Choices)
+4. [Wireframes](#Wireframes)
+5. [Features](#Features)
+6. [Existing Features](#Existing-features)
+7. [Features Left to Implement](#features-left-to-implement)
+8. [Technologies](#technologies-used)
+9. [Languages](#Languages)
+10. [Libraries](#libraries)
+11. [Testing](#testing)
+12. [Internet Browsers](#internet-browsers)
+13. [Issues and Resolutions](#issues-and-resolutions)
+14. [Known Issues](#known-issues)
+15. [Deployment](#Deployment)
+16. [Credits](#Credits)
 
 ---
 
@@ -118,7 +134,7 @@ The site has been tested physically on a number of mobile devices including:
 * I found that the bootstrap layout was causing some containers to overflow the width of the screen, and others to cause a narrow white margin along the side of the page. As this was widespread across the whole site, I decided to remove all bootstrap layout classes and use flex to create my layouts instead
 
 ### Known Issues
-* •	All responsiveness working on Microsoft Edge except minimum flex view
+* All responsiveness working on Microsoft Edge except minimum flex view
 
 ---
 
@@ -128,7 +144,7 @@ Bere Gloria was developed on GitPod, using git and GitHub to host the repository
 
 __When deploying Bere Gloria using GitHub Pages be sure to follow these steps:__
 
-1.	Navigate to '/Magnuson95/MS1-Bere_Cu_Miere' or alternatively click here.
+1.	Navigate to '/Magnuson95/MS1-Bere_Cu_Miere' or alternatively click 
 2.	In the top navigation click on 'settings'.
 3.	Scroll down to the GitHub Pages area.
 4.	Select 'Master Branch' from the 'Source' dropdown menu.
@@ -137,7 +153,7 @@ __When deploying Bere Gloria using GitHub Pages be sure to follow these steps:__
 
 __In order to run Bere Gloria locally be sure to follow these steps whilst still on Github:__
 
-1.	Navigate to '/Magnusson95/MS1-Bere-Cu-Miere' or alternatively click here.
+1.	Navigate to '/Magnusson95/MS1-Bere-Cu-Miere' or alternatively click [here](https://github.com/Magnusson95/MS1-Bere_Cu_Miere).
 2.	Click the green 'Clone or Download' button.
 3.	Copy the url in the dropdown box.
 4.	Using your IDE of choice open up your preferred terminal.
