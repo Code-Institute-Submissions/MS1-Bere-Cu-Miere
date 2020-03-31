@@ -112,7 +112,12 @@ You can find my wireframes [here](https://github.com/Magnusson95/MS1-Bere-Cu-Mie
 ## Testing
 
 Throughout development of this project Google Chrome developer tools was used to check the styling and layout of the page.
+
 Particular care and attention was taken to ensure the page was responsive at all screen sizes by selecting the various device models and dragging the responsive window past breakpoints.
+
+Below is a breakdown of the responsiveness of the product:
+
+![Responsiveness](https://github.com/Magnusson95/MS1-Bere-Cu-Miere/blob/master/wireframes/responsiveness.JPG)
 
 ### Internet browsers
 
