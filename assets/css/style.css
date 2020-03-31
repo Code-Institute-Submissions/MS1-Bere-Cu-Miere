@@ -111,9 +111,13 @@ a:hover {
 	font-size: 75px;
 	color: white;
 	width: 100%;
-	top: 50vh;
+	top: 25%;
 	z-index: 1;
 	margin: auto;
+}
+
+.hero-section video {
+	width: 100%
 }
 
 /*----------Product Cards----------*/
@@ -559,6 +563,10 @@ footer {
     text-align: center
     }
 
+	.hero-section h1 {
+		top: 10%
+	}
+
 }
 
 @media screen and (max-width:768px){
@@ -659,9 +667,8 @@ footer {
     }
 
 	.hero-section h1 {
-	font-size: 55px;
-	top: 45vh;
-}
+		font-size: 55px;
+	}
 }
 
 @media screen and (max-width:444px) {
@@ -681,4 +688,8 @@ footer {
     .subscribe_entry, .subscribe_btn {
         margin: 5px
     }
+
+	.hero-section h1 {
+		top: 7.5%
+	}
 }
