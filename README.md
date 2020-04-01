@@ -159,7 +159,7 @@ __When deploying Bere Gloria using GitHub Pages be sure to follow these steps:__
 3.	Scroll down to the GitHub Pages area.
 4.	Select 'Master Branch' from the 'Source' dropdown menu.
 5.	Click to confirm my selection.
-6.	Mambo should now be live on GitHub Pages.
+6.	Bere Gloria should now be live on GitHub Pages.
 
 __In order to run Bere Gloria locally be sure to follow these steps whilst still on Github:__
 
@@ -168,7 +168,7 @@ __In order to run Bere Gloria locally be sure to follow these steps whilst still
 3.	Copy the url in the dropdown box.
 4.	Using your IDE of choice open up your preferred terminal.
 5.	Navigate to your desired file location.
-6.	Copy the following code and input it into your terminal to clone Mambo.
+6.	Copy the following code and input it into your terminal to clone Bere Gloria.
 
 ```git clone https://github.com/Magnusson95/MS1-Bere_Cu_Miere.git```
 
