@@ -119,6 +119,8 @@ Below is a breakdown of the responsiveness of the product:
 
 ![Responsiveness](https://github.com/Magnusson95/MS1-Bere-Cu-Miere/blob/master/wireframes/responsiveness.JPG)
 
+Speed was also tested using [Pingdom](https://tools.pingdom.com/#5c4d25a450c00000) and the site received a performance grade of 84/100
+
 ### Internet browsers
 
 The same process of opening up the live page and meticulously clicking all links, buttons, and re-sizing of windows was utilized in the following browsers:
