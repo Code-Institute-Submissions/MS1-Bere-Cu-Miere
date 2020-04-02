@@ -82,22 +82,21 @@ You can find my wireframes [here](https://github.com/Magnusson95/MS1-Bere-Cu-Mie
 
 ## Technologies Used
 
-* Adobe Illustrator
-* Adobe Illustrator was used to remove backgrounds from images
-* Github to host this project's respositories.
-* Gitpod IDE of choice for development.
-* Git for version control
-* Google Chrome developer tools for testing and troubleshooting.
-* Coolers for colour schemes.
-* W3C Markup Validation used to validate HTML.
-* W3C CSS validation used to validate CSS.
+* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html?gclid=Cj0KCQjwmpb0BRCBARIsAG7y4zadjeAw0hX4tqTO7nNWDHmzARVWku461Yn71-4HPjfIm_RCGs4SlCsaArT4EALw_wcB&sdid=88X75SKR&mv=search&ef_id=Cj0KCQjwmpb0BRCBARIsAG7y4zadjeAw0hX4tqTO7nNWDHmzARVWku461Yn71-4HPjfIm_RCGs4SlCsaArT4EALw_wcB:G:s&s_kwcid=AL!3085!3!340136890710!b!!g!!%2Billustrator%20%2Badobe) was used to remove backgrounds from images
+* [Github](https://github.com/) to host this project's respositories.
+* [Gitpod](https://www.gitpod.io/) IDE of choice for development.
+* [Git](https://en.wikipedia.org/wiki/Git) for version control
+* [Google Chrome developer tools](https://developers.google.com/web/tools/chrome-devtools) for testing and troubleshooting.
+* [Coolors](https://coolors.co/) for colour schemes.
+* [W3C Markup Validation](https://validator.w3.org/) used to validate HTML.
+* [W3C](https://jigsaw.w3.org/css-validator/) CSS validation used to validate CSS.
 
 ---
 
 ## Languages
 
-* HTML to build the page.
-* CSS to style the page.
+* [HTML](https://en.wikipedia.org/wiki/HTML) to build the page.
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) to style the page.
 
 ---
 
@@ -147,6 +146,7 @@ Various examples of multiple screen sizes on different pages of the site can be 
 
 ### Known Issues
 * All responsiveness working on Microsoft Edge except minimum flex view
+* Mobile responsive testing within Chrome seems to remove the border from contact form. This does not happen within Firefox testing, nor does it occur when actually viewing on a mobile.
 
 ---
 
